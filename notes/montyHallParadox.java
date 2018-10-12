@@ -14,8 +14,8 @@ public class montyHallParadox
         Random generator = new Random();
         int carDoor, switchdoor = 0, elim = 0, numstay = 0, choice = 0, numswitch = 0;
         for(int i = 0; i < 10000; i++) {
-            carDoor = generator.nextInt(2);
-            choice = generator.nextInt(2);
+            carDoor = generator.nextInt(3);
+            choice = generator.nextInt(3);
             elim = 0;
             switchdoor = 0;
             while ((elim == choice) || (elim == carDoor)) {

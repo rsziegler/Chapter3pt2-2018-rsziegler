@@ -79,6 +79,7 @@ public class inClassNotes
         }
         */
        
+       /*
        for (int i = 1; i <= 100; i++) {
            if (i%15 == 0) {
                System.out.println("Fizzbuzz");
@@ -93,8 +94,8 @@ public class inClassNotes
                System.out.println(i);
            }
         }
-       
-       /* ---- iterators ----
+       */
+       // ---- iterators ----
        // Scanner is an iterator - hasNext() and next() methods
        
        Scanner words = new Scanner("star lord batman pikachu trump spiderman homer simpson");
@@ -108,7 +109,7 @@ public class inClassNotes
        // Scanner scanfile = new Scanner(new File("C:\Users\rsziegler\Desktop\APCS\chapter4-2018-rsziegler\notes\data\Debate.txt");
        
        // must be in the same folder
-       Scanner scanfile = new Scanner(new File("data\\people.txt"));
+       Scanner scanfile = new Scanner(new File("somedata\\people.txt"));
        String name, address, phone;
        while(scanfile.hasNext()) {
            name = scanfile.next();
@@ -123,6 +124,6 @@ public class inClassNotes
            System.out.println(debate16.next());
        }
        
-       */
+       //
     }
 }
