@@ -13,14 +13,22 @@ public class speeches
 {
     public static void main(String [] args) throws IOException {
         Scanner scanfile = new Scanner(new File("data\\tjefferson.txt"));
+        String file = "";
+        while (scanfile.hasNext()) {
+            file += scanfile.nextLine();
+        }
         String line;
-        String date = scanfile.nextLine();
-        String name = scanfile.nextLine();
-        System.out.println("Name: " + name);
-        System.out.println("Date: " + date);
         int people = 0, government = 0, united = 0, our = 0;
-        String[] split = scanfile.split(" ");
+        String[] split = file.split(" ");
+        System.out.println(split.length);
         
+        for (int i = 0; i < split.length; i++) {
+            System.out.println(split[i]);
+            if (split[i] == "people") {
+                people++;
+            }
+        }
+        /*
         while (scanfile.hasNext()) {
             line = scanfile.nextLine();
             for (int i = 0; i < line.length()-6; i++) {
@@ -42,6 +50,7 @@ public class speeches
                 }
             }
         }
+        */
         System.out.println("People: " + people);
         System.out.println("Government: " + government);
         System.out.println("United: " + united);
