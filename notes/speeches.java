@@ -1,10 +1,9 @@
 
-
 /**
- * Write a description of class speeches here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Taylor Ziegler
+ * Period 7
+ * speeches
+ * 10/19/18
  */
 import java.util.Scanner;
 import java.io.*;
@@ -28,6 +27,7 @@ public class speeches
         System.out.println("Date: " + scanfile.nextLine());
         System.out.println("Name: " + scanfile.nextLine());
         
+        // make a string called file
         while (scanfile.hasNext()) {
             file += scanfile.nextLine() + " ";
         }
@@ -35,6 +35,7 @@ public class speeches
         int people = 0, government = 0, united = 0, our = 0, lengthCount = 0, avgLen = 0;
         String[] split = file.split(" ");
         
+        // check for words and add to the length count
         for (int i = 0; i < split.length; i++) {
             if ((split[i].length() >= 6) && (split[i].toLowerCase().substring(0, 6).equals("people"))) {
                 people++;
@@ -61,3 +62,26 @@ public class speeches
         System.out.println("Our: " + our + "\n");
     }
 }
+
+
+
+
+/*
+ * I am not surprised by the results. Overall, the average word length decreased over the years, which is probably a product of the spread of news. People who were not
+ * well educated would not understand complicated speeches as well, so the people writing the speeches made them simpler and shorter.
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
