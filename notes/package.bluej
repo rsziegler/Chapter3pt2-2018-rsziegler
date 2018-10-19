@@ -128,6 +128,7 @@ target9.editor.x=-8
 target9.editor.y=-8
 target9.height=50
 target9.name=polarRose
+target9.naviview.expanded=false
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
