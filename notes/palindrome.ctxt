@@ -1,4 +1,11 @@
 #BlueJ class context
+<<<<<<< HEAD
 comment0.params=args
 comment0.target=void\ main(java.lang.String[])
 numComments=1
+=======
+comment0.target=palindrome
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
+>>>>>>> e4b9235f2ebc8627f09002177d72fc863ff29330
