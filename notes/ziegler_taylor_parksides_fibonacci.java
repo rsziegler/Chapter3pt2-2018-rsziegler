@@ -1,10 +1,10 @@
 
 
 /**
- * Write a description of class ziegler_taylor_parksides_fibonacci here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Taylor Ziegler
+ * Period 7
+ * parksides fibonacci
+ * 10/19/18
  */
 import java.util.Scanner;
 
